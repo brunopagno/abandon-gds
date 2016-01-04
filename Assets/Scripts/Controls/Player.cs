@@ -19,12 +19,14 @@ public class Player : MonoBehaviour {
 
 	Animator heroAnimator;
 	HeroPhysics heroPhysics;
+    SpriteRenderer heroRenderer;
 
-	void Start() {
+    void Start() {
 		heroAnimator = GetComponentInChildren<Animator>();
-		heroPhysics = GetComponent<HeroPhysics>();
-
-		gravity *= -1;
+        heroRenderer = GetComponentInChildren<SpriteRenderer>();
+        heroPhysics = GetComponent<HeroPhysics>();
+        
+        gravity *= -1;
 
 		jumps = maxJumps;
 	}
@@ -32,11 +34,10 @@ public class Player : MonoBehaviour {
     void SetFlip(float velocity) {
         Vector3 heroScale = transform.localScale;
         if (velocity > 0.5) {
-            heroScale.Set(1, heroScale.y, heroScale.z);
+            heroRenderer.flipX = false;
         } else if (velocity < -0.5) {
-            heroScale.Set(-1, heroScale.y, heroScale.z);
+            heroRenderer.flipX = true;
         }
-        heroPhysics.transform.localScale = heroScale;
     }
 
 	void Update() {
@@ -71,8 +72,8 @@ public class Player : MonoBehaviour {
 
 		velocity.y += gravity * Time.deltaTime;
         heroPhysics.Move(velocity * Time.deltaTime, inputAxes);
-		heroAnimator.SetFloat ("horizontalSpeed", Mathf.Abs(heroPhysics.currentVelocity.x / Time.deltaTime));
-		heroAnimator.SetFloat ("verticalSpeed", heroPhysics.currentVelocity.y / Time.deltaTime);
-		heroAnimator.SetBool ("onGround", heroPhysics.collisions.below);
+		//heroAnimator.SetFloat ("horizontalSpeed", Mathf.Abs(heroPhysics.currentVelocity.x / Time.deltaTime));
+		//heroAnimator.SetFloat ("verticalSpeed", heroPhysics.currentVelocity.y / Time.deltaTime);
+		//heroAnimator.SetBool ("onGround", heroPhysics.collisions.below);
 	}
 }

@@ -9,7 +9,7 @@ public abstract class Trigger : MonoBehaviour {
     public bool active = false;
 
     void Update() {
-        RaycastHit2D[] hits = Physics2D.BoxCastAll(transform.position, size, 0, Vector2.up, Mathf.Infinity, triggerMask);
+        RaycastHit2D[] hits = Physics2D.BoxCastAll(transform.position, size, 0, Vector2.up, 0, triggerMask);
         if (hits.Length > 0) {
             if(!active) {
                 active = true;
