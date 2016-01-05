@@ -13,12 +13,15 @@ public abstract class Trigger : MonoBehaviour {
         if (hits.Length > 0) {
             if(!active) {
                 active = true;
-                this.activate();
+                this.Activate();
+            }
+            if (Input.GetButton("Action")) {
+                this.Interact();
             }
         } else {
             if(active) {
                 active = false;
-                this.deactivate();
+                this.Deactivate();
             }
         }
     }
@@ -28,6 +31,7 @@ public abstract class Trigger : MonoBehaviour {
         Gizmos.DrawCube(transform.position, size);
     }
 
-    public abstract void activate();
-    public abstract void deactivate();
+    public abstract void Activate();
+    public abstract void Interact();
+    public abstract void Deactivate();
 }
