@@ -24,6 +24,7 @@ public abstract class Trigger : MonoBehaviour {
                 this.Deactivate();
             }
         }
+        OnUpdate();
     }
 
     void OnDrawGizmos() {
@@ -34,4 +35,5 @@ public abstract class Trigger : MonoBehaviour {
     public abstract void Activate();
     public abstract void Interact();
     public abstract void Deactivate();
+    public virtual void OnUpdate() { /* nothing */ }
 }
