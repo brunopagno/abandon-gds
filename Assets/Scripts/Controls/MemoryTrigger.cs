@@ -1,8 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System;
+using UnityEngine.SceneManagement;
 
 public class MemoryTrigger : Trigger {
+
+    public string sceneName;
 
     public override void Activate() {
         GameObject memoryIcon = GameObject.FindGameObjectWithTag("MemoryIcon");
@@ -10,7 +13,7 @@ public class MemoryTrigger : Trigger {
     }
 
     public override void Interact() {
-        print("bagual!");
+        SceneManager.LoadScene("memoryan");
     }
 
     public override void Deactivate() {
