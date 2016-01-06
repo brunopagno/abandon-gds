@@ -10,9 +10,7 @@ public class MemoryTrigger : Trigger {
     }
 
     public override void Interact() {
-        if (Input.GetButtonDown("Action")) {
-            print("bagual!");
-        }
+        print("bagual!");
     }
 
     public override void Deactivate() {

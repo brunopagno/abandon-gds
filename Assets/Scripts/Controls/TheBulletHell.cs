@@ -4,7 +4,8 @@ using System.Collections;
 public class TheBulletHell : MonoBehaviour {
 
     public Bullet bullet;
-    public float fireRate = 3;
+    public ParticleSystem showUp;
+    public float fireRate = 2;
     public float range = 4;
 
     float timer = 0;
@@ -15,6 +16,9 @@ public class TheBulletHell : MonoBehaviour {
         if (timer > 1f / fireRate) {
             timer = 0;
             Bullet tiro = GameObject.Instantiate(bullet);
+            tiro.transform.position = this.transform.position;
+            // position bullet
+            showUp.Play();
         }
 	}
 
