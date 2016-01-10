@@ -128,14 +128,6 @@ Prefab:
       propertyPath: target
       value: 
       objectReference: {fileID: 1299025428}
-    - target: {fileID: 11483920, guid: 2d9dfb99b47130a4ea55e13e34521456, type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11483920, guid: 2d9dfb99b47130a4ea55e13e34521456, type: 2}
-      propertyPath: fadeSpeed
-      value: 3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2d9dfb99b47130a4ea55e13e34521456, type: 2}
   m_IsPrefabParent: 0
