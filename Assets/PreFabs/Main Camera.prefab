@@ -13,6 +13,7 @@ GameObject:
   - 124: {fileID: 12474660}
   - 81: {fileID: 8152742}
   - 114: {fileID: 11407668}
+  - 114: {fileID: 11483920}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -97,6 +98,19 @@ MonoBehaviour:
   lookSmoothTimeX: 0.5
   verticalSmoothTime: 0.08
   focusAreaSize: {x: 2.2, y: 3.5}
+--- !u!114 &11483920
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 160274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6c3b0613339d1343ad863a8cca30799, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeTexture: {fileID: 2800000, guid: 5b69ecc2274b0f84f8d7c29d0d07edca, type: 3}
+  fadeSpeed: 0.5
 --- !u!124 &12474660
 Behaviour:
   m_ObjectHideFlags: 1

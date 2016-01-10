@@ -13,7 +13,7 @@ public class MemoryTrigger : Trigger {
     }
 
     public override void Interact() {
-        SceneManager.LoadScene("memoryan");
+        StartCoroutine(GameObject.FindGameObjectWithTag("MainCamera").GetComponent<FadeScene>().FadeOutToScene(sceneName));
     }
 
     public override void Deactivate() {
