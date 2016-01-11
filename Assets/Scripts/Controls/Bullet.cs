@@ -9,7 +9,7 @@ public class Bullet : Trigger {
     private float timer = 0;
 
     public override void Activate() {
-        // TODO: cause stuff on the hero;
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().Hit();
     }
 
     public override void OnUpdate() {

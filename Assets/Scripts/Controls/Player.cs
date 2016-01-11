@@ -13,22 +13,25 @@ public class Player : MonoBehaviour {
     float accelerationTimeAirborne = .2f;
 	float accelerationTimeGrounded = .1f;
 	float moveSpeed = 6;
+    int hits = 3;
+    bool invincible;
     bool lastCollisionBelow = true;
+    bool freeze = false;
 	
 	int jumps;
 	Vector3 velocity;
 	float velocityXSmoothing;
 
-    bool freeze = false;
-
     Animator heroAnimator;
 	HeroPhysics heroPhysics;
     SpriteRenderer heroRenderer;
+    Color defaultColor;
 
     void Start() {
 		heroAnimator = GetComponentInChildren<Animator>();
         heroRenderer = GetComponentInChildren<SpriteRenderer>();
         heroPhysics = GetComponent<HeroPhysics>();
+        defaultColor = heroRenderer.color;
         
         gravity *= -1;
 
@@ -89,5 +92,26 @@ public class Player : MonoBehaviour {
             //heroAnimator.SetFloat ("verticalSpeed", heroPhysics.currentVelocity.y / Time.deltaTime);
             //heroAnimator.SetBool ("onGround", heroPhysics.collisions.below);
         }
+    }
+
+    public void Hit() {
+        if (!invincible) {
+            hits -= 1;
+            if (hits <= 0) {
+                // DIE!
+                print("I'm dead =/");
+            }
+            StartCoroutine(FlashHero());
+        }
+    }
+
+    private IEnumerator FlashHero() {
+        for (int i = 0; i < 4; i++) {
+            heroRenderer.color = Color.red;
+            yield return new WaitForSeconds(0.1f);
+            heroRenderer.color = defaultColor;
+            yield return new WaitForSeconds(0.1f);
+        }
+        yield return new WaitForSeconds(0);
     }
 }
