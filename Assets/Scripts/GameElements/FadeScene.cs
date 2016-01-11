@@ -21,12 +21,14 @@ public class FadeScene : MonoBehaviour {
     }
 
     public IEnumerator FadeOutToScene(string scene) {
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().Freeze();
         float fadeTime = BeginFade(1);
         yield return new WaitForSeconds(fadeTime);
         SceneManager.LoadScene(scene);
     }
 
     void OnLevelWasLoaded() {
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().Unfreeze();
         BeginFade(-1);
     }
 
