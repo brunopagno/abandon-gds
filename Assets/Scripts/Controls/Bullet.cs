@@ -9,7 +9,7 @@ public class Bullet : Trigger {
     private float timer = 0;
 
     public override void Activate() {
-        print("ACONTECEU!");
+        // TODO: cause stuff on the hero;
     }
 
     public override void OnUpdate() {
