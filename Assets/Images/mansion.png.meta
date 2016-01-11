@@ -1,0 +1,1396 @@
+fileFormatVersion: 2
+guid: 445c814467dd548f1b3f35bcbdd522e6
+timeCreated: 1452532668
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mansion_0
+    21300002: mansion_1
+    21300004: mansion_2
+    21300006: mansion_3
+    21300008: mansion_4
+    21300010: mansion_5
+    21300012: mansion_6
+    21300014: mansion_7
+    21300016: mansion_8
+    21300018: mansion_9
+    21300020: mansion_10
+    21300022: mansion_11
+    21300024: mansion_12
+    21300026: mansion_13
+    21300028: mansion_14
+    21300030: mansion_15
+    21300032: mansion_16
+    21300034: mansion_17
+    21300036: mansion_18
+    21300038: mansion_19
+    21300040: mansion_20
+    21300042: mansion_21
+    21300044: mansion_22
+    21300046: mansion_23
+    21300048: mansion_24
+    21300050: mansion_25
+    21300052: mansion_26
+    21300054: mansion_27
+    21300056: mansion_28
+    21300058: mansion_29
+    21300060: mansion_30
+    21300062: mansion_31
+    21300064: mansion_32
+    21300066: mansion_33
+    21300068: mansion_34
+    21300070: mansion_35
+    21300072: mansion_36
+    21300074: mansion_37
+    21300076: mansion_38
+    21300078: mansion_39
+    21300080: mansion_40
+    21300082: mansion_41
+    21300084: mansion_42
+    21300086: mansion_43
+    21300088: mansion_44
+    21300090: mansion_45
+    21300092: mansion_46
+    21300094: mansion_47
+    21300096: mansion_48
+    21300098: mansion_49
+    21300100: mansion_50
+    21300102: mansion_51
+    21300104: mansion_52
+    21300106: mansion_53
+    21300108: mansion_54
+    21300110: mansion_55
+    21300112: mansion_56
+    21300114: mansion_57
+    21300116: mansion_58
+    21300118: mansion_59
+    21300120: mansion_60
+    21300122: mansion_61
+    21300124: mansion_62
+    21300126: mansion_63
+    21300128: mansion_64
+    21300130: mansion_65
+    21300132: mansion_66
+    21300134: mansion_67
+    21300136: mansion_68
+    21300138: mansion_69
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: mansion_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 678
+        width: 315
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 126.5, y: -173}
+        - {x: 129.5, y: -171}
+        - {x: 127.5, y: -168}
+        - {x: 129.5, y: -165}
+        - {x: 128.5, y: -165}
+        - {x: 129.5, y: -167}
+        - {x: 135.5, y: -173}
+        - {x: 149.5, y: -173}
+        - {x: 153.5, y: -167}
+        - {x: 154.5, y: -158}
+        - {x: 154.5, y: 74}
+        - {x: 140.5, y: 173}
+        - {x: -130.5, y: 173}
+        - {x: -141.5, y: 172}
+        - {x: -157.5, y: 102}
+        - {x: -157.5, y: -173}
+        - {x: -99.5, y: -173}
+        - {x: -88.5, y: -149}
+        - {x: 37.5, y: -173}
+      - - {x: -57.5, y: 13}
+        - {x: -57.5, y: 12}
+        - {x: -53.5, y: 9}
+        - {x: -50.5, y: 10}
+        - {x: -50.5, y: 13}
+        - {x: -52.5, y: 15}
+        - {x: -55.5, y: 15}
+      - - {x: 45.5, y: 11}
+        - {x: 47.5, y: 9}
+        - {x: 52.5, y: 12}
+        - {x: 51.5, y: 15}
+        - {x: 47.5, y: 15}
+        - {x: 45.5, y: 13}
+    - name: mansion_1
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 924
+        width: 70
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 44.5}
+        - {x: -35, y: -28.5}
+        - {x: -17, y: -44.5}
+        - {x: 13, y: -44.5}
+        - {x: 35, y: -13.5}
+        - {x: 35, y: -1.5}
+        - {x: 26, y: 44.5}
+    - name: mansion_2
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 767
+        width: 70
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: -78.5}
+        - {x: 13, y: 78.5}
+        - {x: -16, y: 78.5}
+        - {x: -16, y: -78.5}
+    - name: mansion_3
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 706
+        width: 70
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: -30.5}
+        - {x: 25, y: -30.5}
+        - {x: 25, y: -25.5}
+        - {x: 13, y: 30.5}
+        - {x: -17, y: 30.5}
+        - {x: -27, y: -25.5}
+    - name: mansion_4
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 717
+        width: 27
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mansion_5
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 717
+        width: 134
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67, y: 130.5}
+        - {x: 59, y: 127.5}
+        - {x: 40, y: 131.5}
+        - {x: 25, y: 146.5}
+        - {x: 15, y: 151.5}
+        - {x: -16, y: 151.5}
+        - {x: -29, y: 143.5}
+        - {x: -50, y: 129.5}
+        - {x: -67, y: 130.5}
+        - {x: -67, y: -151.5}
+        - {x: 67, y: -151.5}
+    - name: mansion_6
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 718
+        width: 27
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mansion_7
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 763
+        width: 152
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76, y: 49.5}
+        - {x: 75, y: 55.5}
+        - {x: 35, y: 105.5}
+        - {x: 17, y: 117.5}
+        - {x: 2, y: 123.5}
+        - {x: -12, y: 123.5}
+        - {x: -39, y: 105.5}
+        - {x: -76, y: 83.5}
+        - {x: -76, y: -125.5}
+        - {x: 76, y: -125.5}
+        - {x: 76, y: -118.5}
+        - {x: 73, y: -106.5}
+        - {x: 71, y: -0.5}
+        - {x: 76, y: 13.5}
+    - name: mansion_8
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 935
+        width: 85
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: 42}
+        - {x: -42.5, y: 29}
+        - {x: -42.5, y: -37}
+        - {x: -30.5, y: -42}
+        - {x: 22.5, y: -42}
+        - {x: 42.5, y: -22}
+        - {x: 42.5, y: 25}
+        - {x: 21.5, y: 42}
+    - name: mansion_9
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 773
+        width: 73
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 44.5}
+        - {x: -36.5, y: -12.5}
+        - {x: -36.5, y: -46.5}
+        - {x: 36.5, y: -46.5}
+        - {x: 36.5, y: 45.5}
+        - {x: -31.5, y: 45.5}
+    - name: mansion_10
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 762
+        width: 153
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 72.5, y: -106}
+        - {x: 69.5, y: 65}
+        - {x: 39.5, y: 109}
+        - {x: 14.5, y: 124}
+        - {x: -11.5, y: 124}
+        - {x: -43.5, y: 112}
+        - {x: -75.5, y: 54}
+        - {x: -76.5, y: 6}
+        - {x: -76.5, y: -126}
+        - {x: 72.5, y: -126}
+        - {x: 74.5, y: -124}
+        - {x: 74.5, y: -110}
+    - name: mansion_11
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 877
+        width: 135
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63.5, y: 72.5}
+        - {x: 61.5, y: 72.5}
+        - {x: 61.5, y: 71.5}
+        - {x: -64.5, y: 72.5}
+        - {x: -67.5, y: 71.5}
+        - {x: -67.5, y: -72.5}
+        - {x: 65.5, y: -72.5}
+        - {x: 67.5, y: -70.5}
+        - {x: 67.5, y: 70.5}
+    - name: mansion_12
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 920
+        width: 164
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -82, y: 52}
+        - {x: -82, y: -50}
+        - {x: -78, y: -52}
+        - {x: 82, y: -52}
+        - {x: 82, y: 48}
+        - {x: 47, y: 52}
+    - name: mansion_13
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 828
+        width: 123
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61.5, y: 45}
+        - {x: -61.5, y: -41}
+        - {x: -56.5, y: -45}
+        - {x: 57.5, y: -45}
+        - {x: 61.5, y: -43}
+        - {x: 61.5, y: 45}
+    - name: mansion_14
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 733
+        width: 122
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: -45}
+        - {x: 61, y: 45}
+        - {x: -61, y: 45}
+        - {x: -61, y: -45}
+        - {x: -48, y: -45}
+        - {x: -48, y: -15}
+        - {x: -48, y: -45}
+    - name: mansion_15
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 688
+        width: 120
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: -28}
+        - {x: 49, y: -27}
+        - {x: 49, y: -45}
+        - {x: 60, y: -45}
+        - {x: 60, y: 45}
+        - {x: -60, y: 45}
+        - {x: -60, y: -41}
+        - {x: -47, y: -45}
+        - {x: 47, y: -45}
+    - name: mansion_16
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 782
+        width: 122
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: -44}
+        - {x: 61, y: 43}
+        - {x: 50, y: 45}
+        - {x: -61, y: 45}
+        - {x: -61, y: -41}
+        - {x: -48, y: -45}
+        - {x: 57, y: -45}
+    - name: mansion_17
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 661
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 28.5}
+        - {x: -17.5, y: -28.5}
+        - {x: 17.5, y: -28.5}
+        - {x: 17.5, y: 28.5}
+    - name: mansion_18
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 695
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mansion_19
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 691
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mansion_20
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 672
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mansion_21
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 672
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mansion_22
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 636
+        width: 47
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mansion_23
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 636
+        width: 45
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mansion_24
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 636
+        width: 45
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mansion_25
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 555
+        width: 171
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72.5, y: 59.5}
+        - {x: -85.5, y: 53.5}
+        - {x: -85.5, y: -55.5}
+        - {x: -82.5, y: -59.5}
+        - {x: 82.5, y: -59.5}
+        - {x: 85.5, y: -54.5}
+        - {x: 85.5, y: 54.5}
+        - {x: 74.5, y: 59.5}
+    - name: mansion_26
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 545
+        width: 167
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 82.5, y: 66}
+        - {x: -83.5, y: 66}
+        - {x: -83.5, y: -8}
+        - {x: -79.5, y: -66}
+        - {x: 78.5, y: -66}
+        - {x: 81.5, y: -33}
+        - {x: 83.5, y: -4}
+        - {x: 83.5, y: 65}
+    - name: mansion_27
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 313
+        width: 173
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 84.5, y: 108.5}
+        - {x: 78.5, y: 110.5}
+        - {x: 70.5, y: 113.5}
+        - {x: 64.5, y: 115.5}
+        - {x: -67.5, y: 115.5}
+        - {x: -69.5, y: 114.5}
+        - {x: -76.5, y: 112.5}
+        - {x: -86.5, y: 108.5}
+        - {x: -86.5, y: -111.5}
+        - {x: -84.5, y: -114.5}
+        - {x: -83.5, y: -115.5}
+        - {x: 82.5, y: -115.5}
+        - {x: 83.5, y: -114.5}
+        - {x: 86.5, y: -110.5}
+        - {x: 86.5, y: 105.5}
+    - name: mansion_28
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 311
+        width: 174
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 87, y: 108.5}
+        - {x: 85, y: 111.5}
+        - {x: 69, y: 116.5}
+        - {x: -66, y: 116.5}
+        - {x: -83, y: 111.5}
+        - {x: -87, y: 107.5}
+        - {x: -87, y: -109.5}
+        - {x: -84, y: -113.5}
+        - {x: -82, y: -115.5}
+        - {x: -64, y: -116.5}
+        - {x: 67, y: -116.5}
+        - {x: 83, y: -115.5}
+        - {x: 87, y: -111.5}
+    - name: mansion_29
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 581
+        width: 203
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 71.5, y: 66.5}
+        - {x: -83.5, y: 66.5}
+        - {x: -101.5, y: 34.5}
+        - {x: -101.5, y: -67.5}
+        - {x: 101.5, y: -67.5}
+        - {x: 101.5, y: -10.5}
+        - {x: 99.5, y: 4.5}
+        - {x: 93.5, y: 12.5}
+        - {x: 79.5, y: 61.5}
+    - name: mansion_30
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 445
+        width: 203
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 101.5, y: 24.5}
+        - {x: 91.5, y: 67.5}
+        - {x: -79.5, y: 67.5}
+        - {x: -101.5, y: 22.5}
+        - {x: -101.5, y: -67.5}
+        - {x: 101.5, y: -67.5}
+    - name: mansion_31
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 304
+        width: 226
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: 69.5}
+        - {x: -42, y: 69.5}
+        - {x: -65, y: 48.5}
+        - {x: -101, y: 15.5}
+        - {x: -101, y: -69.5}
+        - {x: 113, y: -69.5}
+        - {x: 113, y: 17.5}
+        - {x: 84, y: 63.5}
+    - name: mansion_32
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 520
+        width: 227
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 108.5, y: -79.5}
+        - {x: 108.5, y: -38.5}
+        - {x: 102.5, y: -22.5}
+        - {x: 102.5, y: 117.5}
+        - {x: 97.5, y: 120.5}
+        - {x: -98.5, y: 120.5}
+        - {x: -102.5, y: 116.5}
+        - {x: -103.5, y: -23.5}
+        - {x: -111.5, y: -43.5}
+        - {x: -108.5, y: -79.5}
+        - {x: -113.5, y: -82.5}
+        - {x: -113.5, y: -120.5}
+        - {x: 112.5, y: -120.5}
+        - {x: 113.5, y: -119.5}
+        - {x: 113.5, y: -82.5}
+      - - {x: 110.5, y: 95.5}
+        - {x: 112.5, y: 93.5}
+        - {x: 113.5, y: 93.5}
+        - {x: 113.5, y: 100.5}
+        - {x: 110.5, y: 99.5}
+    - name: mansion_33
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 654
+        width: 131
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.5, y: -41.5}
+        - {x: 65.5, y: 25.5}
+        - {x: 65.5, y: 42.5}
+        - {x: 37.5, y: 46.5}
+        - {x: -60.5, y: 46.5}
+        - {x: -65.5, y: 43.5}
+        - {x: -65.5, y: 17.5}
+        - {x: -51.5, y: -26.5}
+        - {x: -27.5, y: -45.5}
+        - {x: -18.5, y: -48.5}
+        - {x: 18.5, y: -48.5}
+        - {x: 24.5, y: -36.5}
+        - {x: 43.5, y: -46.5}
+        - {x: 46.5, y: -47.5}
+    - name: mansion_34
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 532
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mansion_35
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 549
+        width: 41
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mansion_36
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 611
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 16.5}
+        - {x: -20.5, y: -16.5}
+        - {x: 20.5, y: -16.5}
+        - {x: 20.5, y: 16.5}
+    - name: mansion_37
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 612
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 16}
+        - {x: -19.5, y: -16}
+        - {x: 19.5, y: -16}
+        - {x: 19.5, y: 16}
+    - name: mansion_38
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 577
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 16}
+        - {x: -20.5, y: -16}
+        - {x: 20.5, y: -16}
+        - {x: 20.5, y: 16}
+    - name: mansion_39
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 577
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 16}
+        - {x: -20, y: -16}
+        - {x: 20, y: -16}
+        - {x: 20, y: 16}
+    - name: mansion_40
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 613
+        width: 64
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 16.5}
+        - {x: -30, y: -16.5}
+        - {x: 3, y: -16.5}
+        - {x: 32, y: 6.5}
+        - {x: 32, y: 14.5}
+        - {x: 31, y: 16.5}
+    - name: mansion_41
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 579
+        width: 82
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mansion_42
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 716
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mansion_43
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 520
+        width: 99
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: 4.5}
+        - {x: -49.5, y: -28.5}
+        - {x: 49.5, y: -28.5}
+        - {x: 49.5, y: -12.5}
+        - {x: 27.5, y: 28.5}
+        - {x: -14.5, y: 28.5}
+        - {x: -26.5, y: 27.5}
+        - {x: -46.5, y: 20.5}
+    - name: mansion_44
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 581
+        width: 168
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -84, y: -51}
+        - {x: 84, y: -51}
+        - {x: 84, y: 34}
+        - {x: 83, y: 51}
+        - {x: 26, y: 51}
+        - {x: -84, y: -10}
+    - name: mansion_45
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 532
+        width: 88
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 22.5}
+        - {x: -44, y: 15.5}
+        - {x: -44, y: -20.5}
+        - {x: 40, y: -20.5}
+        - {x: 44, y: -17.5}
+        - {x: 44, y: -6.5}
+        - {x: 20, y: 22.5}
+    - name: mansion_46
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 412
+        width: 197
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -88.5, y: 53.5}
+        - {x: -98.5, y: 45.5}
+        - {x: -98.5, y: -53.5}
+        - {x: -49.5, y: -53.5}
+        - {x: -41.5, y: -51.5}
+        - {x: -34.5, y: -53.5}
+        - {x: 98.5, y: -53.5}
+        - {x: 98.5, y: 51.5}
+        - {x: 73.5, y: 53.5}
+      - - {x: 76.5, y: -18.5}
+        - {x: 79.5, y: -17.5}
+        - {x: 79.5, y: -14.5}
+        - {x: 76.5, y: -13.5}
+        - {x: 74.5, y: -15.5}
+    - name: mansion_47
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 466
+        width: 57
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 26.5}
+        - {x: -28.5, y: 22.5}
+        - {x: -28.5, y: 9.5}
+        - {x: -19.5, y: -2.5}
+        - {x: -4.5, y: -26.5}
+        - {x: 28.5, y: -26.5}
+        - {x: 28.5, y: 26.5}
+    - name: mansion_48
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 466
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 26.5}
+        - {x: -22.5, y: -26.5}
+        - {x: 22.5, y: -26.5}
+        - {x: 22.5, y: 26.5}
+    - name: mansion_49
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 466
+        width: 20
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mansion_50
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 492
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mansion_51
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 411
+        width: 20
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mansion_52
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 411
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 26.5}
+        - {x: -22.5, y: -26.5}
+        - {x: 22.5, y: -26.5}
+        - {x: 22.5, y: 26.5}
+    - name: mansion_53
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 411
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 26.5}
+        - {x: -29, y: -26.5}
+        - {x: 5, y: -26.5}
+        - {x: 29, y: 10.5}
+        - {x: 29, y: 22.5}
+        - {x: 20, y: 26.5}
+    - name: mansion_54
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 156
+        width: 45
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: -61}
+        - {x: -22.5, y: -78}
+        - {x: -11.5, y: -78}
+        - {x: 22.5, y: -58}
+        - {x: 22.5, y: -40}
+        - {x: 19.5, y: -40}
+        - {x: 8.5, y: -44}
+      - - {x: 15.5, y: 78}
+        - {x: -22.5, y: 59}
+        - {x: -22.5, y: 40}
+        - {x: -20.5, y: 40}
+        - {x: 22.5, y: 62}
+        - {x: 22.5, y: 78}
+    - name: mansion_55
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 169
+        width: 45
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 47.5}
+        - {x: 7.5, y: 43.5}
+        - {x: 8.5, y: 45.5}
+        - {x: 16.5, y: 52.5}
+        - {x: 19.5, y: 50.5}
+        - {x: 22.5, y: 50.5}
+        - {x: 22.5, y: 65.5}
+        - {x: 10.5, y: 65.5}
+        - {x: -22.5, y: 45.5}
+        - {x: -22.5, y: -60.5}
+        - {x: -17.5, y: -64.5}
+        - {x: 12.5, y: -64.5}
+        - {x: 22.5, y: -51.5}
+        - {x: 22.5, y: 49.5}
+        - {x: 14.5, y: 48.5}
+    - name: mansion_56
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 169
+        width: 45
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: -43.5}
+        - {x: -8.5, y: -46.5}
+        - {x: -4.5, y: -47.5}
+        - {x: -7.5, y: -48.5}
+        - {x: -12.5, y: -42.5}
+        - {x: -13.5, y: -29.5}
+        - {x: -1.5, y: -22.5}
+        - {x: 10.5, y: -30.5}
+        - {x: 22.5, y: -30.5}
+        - {x: 22.5, y: 65.5}
+        - {x: 3.5, y: 65.5}
+        - {x: -22.5, y: 50.5}
+        - {x: -22.5, y: -52.5}
+        - {x: -16.5, y: -63.5}
+        - {x: 5.5, y: -63.5}
+        - {x: 22.5, y: -55.5}
+        - {x: 15.5, y: -34.5}
+        - {x: -5.5, y: -25.5}
+        - {x: -11.5, y: -37.5}
+    - name: mansion_57
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 169
+        width: 44
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 49.5}
+        - {x: 15, y: 47.5}
+        - {x: 12, y: 46.5}
+        - {x: 8, y: 42.5}
+        - {x: 9, y: 44.5}
+        - {x: 17, y: 51.5}
+        - {x: 20, y: 49.5}
+        - {x: 22, y: 49.5}
+        - {x: 22, y: 65.5}
+        - {x: 11, y: 65.5}
+        - {x: -22, y: 51.5}
+        - {x: -22, y: -55.5}
+        - {x: -12, y: -65.5}
+        - {x: 0, y: -65.5}
+        - {x: 12, y: -57.5}
+        - {x: 16, y: -54.5}
+        - {x: 22, y: -42.5}
+    - name: mansion_58
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 173
+        width: 45
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: -67.5}
+        - {x: 22.5, y: -67.5}
+        - {x: 22.5, y: -52.5}
+        - {x: -22.5, y: -52.5}
+      - - {x: -22.5, y: 67.5}
+        - {x: -22.5, y: 51.5}
+        - {x: 22.5, y: 51.5}
+        - {x: 22.5, y: 67.5}
+    - name: mansion_59
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 137
+        width: 41
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 87}
+        - {x: -20.5, y: 69}
+        - {x: -20.5, y: -87}
+        - {x: 15.5, y: -87}
+        - {x: 20.5, y: 14}
+        - {x: 20.5, y: 85}
+        - {x: 9.5, y: 87}
+      - - {x: 13.5, y: 87}
+        - {x: 14.5, y: 84}
+        - {x: 18.5, y: 84}
+        - {x: 20.5, y: 86}
+        - {x: 20.5, y: 87}
+    - name: mansion_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 40
+        width: 45
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 58}
+        - {x: -22.5, y: -54}
+        - {x: -20.5, y: -58}
+        - {x: 10.5, y: -58}
+        - {x: 22.5, y: -54}
+        - {x: 22.5, y: 46}
+        - {x: 13.5, y: 58}
+    - name: mansion_61
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 40
+        width: 45
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 58}
+        - {x: -18.5, y: 56}
+        - {x: -22.5, y: 45}
+        - {x: -22.5, y: -52}
+        - {x: -15.5, y: -58}
+        - {x: 20.5, y: -58}
+        - {x: 22.5, y: -55}
+        - {x: 22.5, y: 58}
+    - name: mansion_62
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 40
+        width: 45
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 58}
+        - {x: -22.5, y: -57}
+        - {x: -20.5, y: -58}
+        - {x: 22.5, y: -58}
+        - {x: 22.5, y: 58}
+    - name: mansion_63
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 40
+        width: 45
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 58}
+        - {x: -22.5, y: 45}
+        - {x: -22.5, y: 15}
+        - {x: -18.5, y: 12}
+        - {x: -16.5, y: 12}
+        - {x: -13.5, y: 15}
+        - {x: 5.5, y: 13}
+        - {x: -18.5, y: 10}
+        - {x: -22.5, y: 9}
+        - {x: -22.5, y: -51}
+        - {x: -18.5, y: -58}
+        - {x: 22.5, y: -58}
+        - {x: 22.5, y: 57}
+        - {x: 15.5, y: 58}
+    - name: mansion_64
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 252
+        width: 244
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -114, y: 26}
+        - {x: -122, y: 20}
+        - {x: -122, y: -2}
+        - {x: -94, y: -26}
+        - {x: 75, y: -26}
+        - {x: 122, y: -1}
+        - {x: 122, y: 26}
+    - name: mansion_65
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 198
+        width: 193
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78.5, y: 27}
+        - {x: -96.5, y: 18}
+        - {x: -96.5, y: 1}
+        - {x: -94.5, y: 0}
+        - {x: -37.5, y: -27}
+        - {x: 96.5, y: -27}
+        - {x: 96.5, y: 27}
+    - name: mansion_66
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 39
+        width: 163
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 78.5}
+        - {x: 2.5, y: 75.5}
+        - {x: -81.5, y: 10.5}
+        - {x: -81.5, y: -50.5}
+        - {x: -69.5, y: -79.5}
+        - {x: 81.5, y: -79.5}
+        - {x: 81.5, y: 70.5}
+        - {x: 77.5, y: 78.5}
+    - name: mansion_67
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 110
+        width: 239
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 119.5, y: -92}
+        - {x: 119.5, y: -22}
+        - {x: 51.5, y: 95}
+        - {x: 38.5, y: 97}
+        - {x: -24.5, y: 97}
+        - {x: -67.5, y: 83}
+        - {x: -99.5, y: 3}
+        - {x: -119.5, y: -16}
+        - {x: -119.5, y: -97}
+        - {x: -97.5, y: -97}
+        - {x: 95.5, y: -90}
+        - {x: 98.5, y: -97}
+        - {x: 117.5, y: -97}
+    - name: mansion_68
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 309
+        width: 125
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62.5, y: 51.5}
+        - {x: -62.5, y: -51.5}
+        - {x: 62.5, y: -51.5}
+        - {x: 62.5, y: 49.5}
+        - {x: 59.5, y: 51.5}
+      - - {x: -62.5, y: 1.5}
+        - {x: -59.5, y: 2.5}
+        - {x: -59.5, y: 15.5}
+        - {x: -61.5, y: 17.5}
+        - {x: -62.5, y: 17.5}
+    - name: mansion_69
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 327
+        width: 115
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 41}
+        - {x: -27.5, y: 36}
+        - {x: -57.5, y: 27}
+        - {x: -57.5, y: -13}
+        - {x: -53.5, y: -39}
+        - {x: -46.5, y: -41}
+        - {x: 56.5, y: -41}
+        - {x: 56.5, y: 28}
+        - {x: 13.5, y: 41}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
