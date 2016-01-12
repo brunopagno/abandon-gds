@@ -9,14 +9,15 @@ public class Player : MonoBehaviour {
 	public float jumpPower = 10;
 	public int maxJumps = 1;
 	public float jumpAttenuation = 2f;
+    public float timeInvincible = 1.0f;
 
     float accelerationTimeAirborne = .2f;
 	float accelerationTimeGrounded = .1f;
 	float moveSpeed = 6;
     int hits = 3;
+    float invincibleTimer;
     bool invincible;
     bool lastCollisionBelow = true;
-    bool freeze = false;
 	
 	int jumps;
 	Vector3 velocity;
@@ -36,6 +37,7 @@ public class Player : MonoBehaviour {
         gravity *= -1;
 
 		jumps = maxJumps;
+        invincibleTimer = timeInvincible;
 	}
 
     void SetFlip(float velocity) {
@@ -47,16 +49,8 @@ public class Player : MonoBehaviour {
         }
     }
 
-    public void Freeze() {
-        freeze = true;
-    }
-
-    public void Unfreeze() {
-        freeze = false;
-    }
-
     void Update() {
-        if (!freeze) {
+        if (UtilControls.running) {
 		    if (heroPhysics.collisions.above || heroPhysics.collisions.below) {
 			    velocity.y = 0;
 		    }
@@ -88,29 +82,41 @@ public class Player : MonoBehaviour {
 
 		    velocity.y += gravity * Time.deltaTime;
             heroPhysics.Move(velocity * Time.deltaTime, inputAxes);
+
             //heroAnimator.SetFloat ("horizontalSpeed", Mathf.Abs(heroPhysics.currentVelocity.x / Time.deltaTime));
             //heroAnimator.SetFloat ("verticalSpeed", heroPhysics.currentVelocity.y / Time.deltaTime);
             //heroAnimator.SetBool ("onGround", heroPhysics.collisions.below);
+        }
+        if (invincible) {
+            invincibleTimer -= Time.deltaTime;
+            if (invincibleTimer <= 0) {
+                invincible = false;
+                invincibleTimer = timeInvincible;
+            }
         }
     }
 
     public void Hit() {
         if (!invincible) {
+            invincible = true;
             hits -= 1;
             if (hits <= 0) {
                 // DIE!
                 print("I'm dead =/");
             }
+            StartCoroutine(UtilControls.OneSecFreeze());
             StartCoroutine(FlashHero());
+        } else {
+            print("I wasnt hit because I'm invincible");
         }
     }
 
     private IEnumerator FlashHero() {
-        for (int i = 0; i < 4; i++) {
+        while (invincible) {
             heroRenderer.color = Color.red;
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.08f);
             heroRenderer.color = defaultColor;
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.08f);
         }
         yield return new WaitForSeconds(0);
     }

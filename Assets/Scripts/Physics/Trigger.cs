@@ -9,22 +9,24 @@ public abstract class Trigger : MonoBehaviour {
     public bool active = false;
 
     void Update() {
-        RaycastHit2D[] hits = Physics2D.BoxCastAll(transform.position, size, 0, Vector2.up, 0, triggerMask);
-        if (hits.Length > 0) {
-            if(!active) {
-                active = true;
-                this.Activate();
+        if (UtilControls.running) {
+            RaycastHit2D[] hits = Physics2D.BoxCastAll(transform.position, size, 0, Vector2.up, 0, triggerMask);
+            if (hits.Length > 0) {
+                if (!active) {
+                    active = true;
+                    this.Activate();
+                }
+                if (Input.GetButton("Action")) {
+                    this.Interact();
+                }
+            } else {
+                if (active) {
+                    active = false;
+                    this.Deactivate();
+                }
             }
-            if (Input.GetButton("Action")) {
-                this.Interact();
-            }
-        } else {
-            if(active) {
-                active = false;
-                this.Deactivate();
-            }
+            OnUpdate();
         }
-        OnUpdate();
     }
 
     void OnDrawGizmos() {

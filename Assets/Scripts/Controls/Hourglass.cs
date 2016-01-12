@@ -6,7 +6,7 @@ public class Hourglass : Trigger {
     public string scene = "main";
 
     public override void Activate() {
-        GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().Freeze();
+        UtilControls.Freeze();
         StartCoroutine(GameObject.FindGameObjectWithTag("MainCamera").GetComponent<FadeScene>().FadeOutToScene(scene));
     }
 

@@ -20,12 +20,14 @@ public class WheelPlatform : MonoBehaviour {
     }
 
     void Update () {
-        if(active) {
-            float rotation = CalculatePlatformMovement(); // in degrees
-        
-            CalculatePassengerMovement(rotation);
-            transform.Rotate(Vector3.back, rotation);
-            MovePassengers();
+        if (UtilControls.running) {
+            if (active) {
+                float rotation = CalculatePlatformMovement(); // in degrees
+
+                CalculatePassengerMovement(rotation);
+                transform.Rotate(Vector3.back, rotation);
+                MovePassengers();
+            }
         }
     }
 

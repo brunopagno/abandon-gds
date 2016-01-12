@@ -10,17 +10,19 @@ public class TheBulletHell : MonoBehaviour {
 
     float timer = 0;
 
-	void Update () {
-        timer += Time.deltaTime;
+	void Update() {
+        if (UtilControls.running) {
+            timer += Time.deltaTime;
 
-        if (timer > 1f / fireRate) {
-            timer = 0;
-            Bullet tiro = GameObject.Instantiate(bullet);
-            tiro.transform.position = this.transform.position;
-            // position bullet
-            showUp.Play();
+            if (timer > 1f / fireRate) {
+                timer = 0;
+                Bullet tiro = GameObject.Instantiate(bullet);
+                tiro.transform.position = this.transform.position;
+                // position bullet
+                showUp.Play();
+            }
         }
-	}
+    }
 
     void OnDrawGizmos() {
         Gizmos.color = new Color(0.3f, 0.8f, 1, 0.8f);

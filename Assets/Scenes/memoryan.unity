@@ -124,6 +124,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 11436080, guid: 4878d10e1bd027f479dc4d9f205ee65c, type: 2}
+      propertyPath: timeInvincible
+      value: 1.09
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4878d10e1bd027f479dc4d9f205ee65c, type: 2}
   m_IsPrefabParent: 0
@@ -261,7 +265,7 @@ Transform:
   - {fileID: 1319679572}
   - {fileID: 1591217579}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
 --- !u!1 &1267739766
 GameObject:
   m_ObjectHideFlags: 0
