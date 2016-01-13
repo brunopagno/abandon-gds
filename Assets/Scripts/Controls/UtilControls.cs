@@ -19,4 +19,15 @@ public static class UtilControls {
         running = true;
     }
 
+    public static IEnumerator CameraShake(float duration, float power) {
+        Vector3 originalPosition = Camera.main.transform.position;
+
+        while (duration > 0) {
+            duration -= Time.deltaTime;
+            Vector3 shake = new Vector3((Random.value - 0.5f) * power, (Random.value - 0.5f) * power, 0);
+            Camera.main.transform.position = originalPosition + shake;
+            yield return null;
+        }
+    }
+
 }

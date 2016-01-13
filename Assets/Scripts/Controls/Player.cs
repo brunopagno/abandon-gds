@@ -18,7 +18,6 @@ public class Player : MonoBehaviour {
     float invincibleTimer;
     bool invincible;
     bool lastCollisionBelow = true;
-    bool theHeroIsDead = false;
 
     int jumps;
     Vector3 velocity;
@@ -51,6 +50,10 @@ public class Player : MonoBehaviour {
     }
 
     void Update() {
+        if (Input.GetButtonDown("Action")) {
+            StartCoroutine(UtilControls.CameraShake(0.1f, 0.5f));
+        }
+
         if (UtilControls.running) {
             if (heroPhysics.collisions.above || heroPhysics.collisions.below) {
                 velocity.y = 0;
@@ -98,18 +101,19 @@ public class Player : MonoBehaviour {
     }
 
     public void Hit() {
-        if (!invincible && !theHeroIsDead) {
+        if (!invincible) {
             invincible = true;
             hits -= 1;
+            StartCoroutine(UtilControls.CameraShake(0.1f, 0.5f));
             if (hits > 0) {
                 StartCoroutine(UtilControls.OneSecFreeze());
                 StartCoroutine(FlashHero());
             } else {
                 print("i'm so dead so I should not be moving right now.");
-                theHeroIsDead = true;
                 invincible = false;
                 UtilControls.Freeze();
                 //heroAnimator.SetBool("dead", true);
+                StartCoroutine(GameObject.FindGameObjectWithTag("MainCamera").GetComponent<FadeScene>().FadeOutToScene("main"));
             }
         }
     }
