@@ -2,43 +2,44 @@
 using System.Collections;
 using System;
 
-[RequireComponent (typeof (HeroPhysics))]
+[RequireComponent(typeof(HeroPhysics))]
 public class Player : MonoBehaviour {
 
-	public float gravity = 25;
-	public float jumpPower = 10;
-	public int maxJumps = 1;
-	public float jumpAttenuation = 2f;
+    public float gravity = 25;
+    public float jumpPower = 10;
+    public int maxJumps = 1;
+    public float jumpAttenuation = 2f;
     public float timeInvincible = 1.0f;
 
-    float accelerationTimeAirborne = .2f;
-	float accelerationTimeGrounded = .1f;
-	float moveSpeed = 6;
+    float accelerationTimeAirborne = 0.2f;
+    float accelerationTimeGrounded = 0.1f;
+    float moveSpeed = 6;
     int hits = 3;
     float invincibleTimer;
     bool invincible;
     bool lastCollisionBelow = true;
-	
-	int jumps;
-	Vector3 velocity;
-	float velocityXSmoothing;
+    bool theHeroIsDead = false;
+
+    int jumps;
+    Vector3 velocity;
+    float velocityXSmoothing;
 
     Animator heroAnimator;
-	HeroPhysics heroPhysics;
+    HeroPhysics heroPhysics;
     SpriteRenderer heroRenderer;
     Color defaultColor;
 
     void Start() {
-		heroAnimator = GetComponentInChildren<Animator>();
+        heroAnimator = GetComponentInChildren<Animator>();
         heroRenderer = GetComponentInChildren<SpriteRenderer>();
         heroPhysics = GetComponent<HeroPhysics>();
         defaultColor = heroRenderer.color;
-        
+
         gravity *= -1;
 
-		jumps = maxJumps;
+        jumps = maxJumps;
         invincibleTimer = timeInvincible;
-	}
+    }
 
     void SetFlip(float velocity) {
         Vector3 heroScale = transform.localScale;
@@ -51,36 +52,36 @@ public class Player : MonoBehaviour {
 
     void Update() {
         if (UtilControls.running) {
-		    if (heroPhysics.collisions.above || heroPhysics.collisions.below) {
-			    velocity.y = 0;
-		    }
+            if (heroPhysics.collisions.above || heroPhysics.collisions.below) {
+                velocity.y = 0;
+            }
 
-		    if(heroPhysics.collisions.below) {
+            if (heroPhysics.collisions.below) {
                 jumps = maxJumps;
-            } else if(lastCollisionBelow) {
+            } else if (lastCollisionBelow) {
                 jumps--;
             }
             lastCollisionBelow = heroPhysics.collisions.below;
 
-		    Vector2 inputAxes = new Vector2 (Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+            Vector2 inputAxes = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
-		    if (Input.GetButtonDown("Jump")) {
+            if (Input.GetButtonDown("Jump")) {
                 if (inputAxes.y < -0.5) {
                     heroPhysics.DropPlatform();
                 } else if (heroPhysics.collisions.below || jumps > 0) {
-				    jumps--;
-				    velocity.y = jumpPower;
-			    }
-		    }
-		    if (Input.GetButtonUp("Jump") && velocity.y > 0) {
-			    velocity.y -= velocity.y / jumpAttenuation;
-		    }
+                    jumps--;
+                    velocity.y = jumpPower;
+                }
+            }
+            if (Input.GetButtonUp("Jump") && velocity.y > 0) {
+                velocity.y -= velocity.y / jumpAttenuation;
+            }
 
-		    float targetVelocityX = inputAxes.x * moveSpeed;
-		    velocity.x = Mathf.SmoothDamp(velocity.x, targetVelocityX, ref velocityXSmoothing, (heroPhysics.collisions.below)?accelerationTimeGrounded:accelerationTimeAirborne);
+            float targetVelocityX = inputAxes.x * moveSpeed;
+            velocity.x = Mathf.SmoothDamp(velocity.x, targetVelocityX, ref velocityXSmoothing, (heroPhysics.collisions.below) ? accelerationTimeGrounded : accelerationTimeAirborne);
             SetFlip(velocity.x);
 
-		    velocity.y += gravity * Time.deltaTime;
+            velocity.y += gravity * Time.deltaTime;
             heroPhysics.Move(velocity * Time.deltaTime, inputAxes);
 
             //heroAnimator.SetFloat ("horizontalSpeed", Mathf.Abs(heroPhysics.currentVelocity.x / Time.deltaTime));
@@ -97,17 +98,19 @@ public class Player : MonoBehaviour {
     }
 
     public void Hit() {
-        if (!invincible) {
+        if (!invincible && !theHeroIsDead) {
             invincible = true;
             hits -= 1;
-            if (hits <= 0) {
-                // DIE!
-                print("I'm dead =/");
+            if (hits > 0) {
+                StartCoroutine(UtilControls.OneSecFreeze());
+                StartCoroutine(FlashHero());
+            } else {
+                print("i'm so dead so I should not be moving right now.");
+                theHeroIsDead = true;
+                invincible = false;
+                UtilControls.Freeze();
+                //heroAnimator.SetBool("dead", true);
             }
-            StartCoroutine(UtilControls.OneSecFreeze());
-            StartCoroutine(FlashHero());
-        } else {
-            print("I wasnt hit because I'm invincible");
         }
     }
 
