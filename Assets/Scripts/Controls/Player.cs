@@ -7,9 +7,12 @@ public class Player : MonoBehaviour {
 
     public float gravity = 25;
     public float jumpPower = 10;
+
     public int maxJumps = 1;
     public float jumpAttenuation = 2f;
     public float timeInvincible = 1.0f;
+
+    public Inventory inventory;
 
     float accelerationTimeAirborne = 0.2f;
     float accelerationTimeGrounded = 0.1f;
@@ -98,6 +101,10 @@ public class Player : MonoBehaviour {
                 invincibleTimer = timeInvincible;
             }
         }
+    }
+
+    public void Collect(Collectible collectible) {
+        inventory.AddItem(collectible);
     }
 
     public void Hit() {
