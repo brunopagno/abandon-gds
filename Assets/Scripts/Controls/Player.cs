@@ -104,6 +104,7 @@ public class Player : MonoBehaviour {
     }
 
     public void Collect(Collectible collectible) {
+        print("I JUST COLLECTED AN AMAZING ITEM!");
         inventory.AddItem(collectible);
     }
 
@@ -116,7 +117,6 @@ public class Player : MonoBehaviour {
                 StartCoroutine(UtilControls.OneSecFreeze());
                 StartCoroutine(FlashHero());
             } else {
-                print("i'm so dead so I should not be moving right now.");
                 invincible = false;
                 UtilControls.Freeze();
                 //heroAnimator.SetBool("dead", true);
