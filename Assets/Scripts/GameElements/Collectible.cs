@@ -5,8 +5,8 @@ using System;
 public class Collectible : Trigger {
 
     public override void Activate() {
-        print("Collectible;");
         GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().Collect(this);
+        GameObject.Destroy(this.gameObject);
     }
 
     public override void Deactivate() {}

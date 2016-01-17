@@ -41,6 +41,8 @@ public class Player : MonoBehaviour {
 
         jumps = maxJumps;
         invincibleTimer = timeInvincible;
+
+        inventory = new Inventory();
     }
 
     void SetFlip(float velocity) {
@@ -104,7 +106,6 @@ public class Player : MonoBehaviour {
     }
 
     public void Collect(Collectible collectible) {
-        print("I JUST COLLECTED AN AMAZING ITEM!");
         inventory.AddItem(collectible);
     }
 

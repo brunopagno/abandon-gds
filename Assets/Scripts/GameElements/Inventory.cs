@@ -7,6 +7,10 @@ public class Inventory {
 
     private List<Collectible> items;
 
+    public Inventory() {
+        items = new List<Collectible>();
+    }
+
     public int ItemsCount {
         get {
             return items.Count;
