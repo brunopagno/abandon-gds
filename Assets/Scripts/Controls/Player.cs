@@ -92,9 +92,9 @@ public class Player : MonoBehaviour {
             velocity.y += gravity * Time.deltaTime;
             heroPhysics.Move(velocity * Time.deltaTime, inputAxes);
 
-            //heroAnimator.SetFloat ("horizontalSpeed", Mathf.Abs(heroPhysics.currentVelocity.x / Time.deltaTime));
-            //heroAnimator.SetFloat ("verticalSpeed", heroPhysics.currentVelocity.y / Time.deltaTime);
-            //heroAnimator.SetBool ("onGround", heroPhysics.collisions.below);
+            heroAnimator.SetFloat ("horizontalSpeed", Mathf.Abs(heroPhysics.currentVelocity.x / Time.deltaTime));
+            heroAnimator.SetFloat ("verticalSpeed", heroPhysics.currentVelocity.y / Time.deltaTime);
+            heroAnimator.SetBool ("onGround", heroPhysics.collisions.below);
         }
         if (invincible) {
             invincibleTimer -= Time.deltaTime;
