@@ -94,7 +94,6 @@ public class Player : MonoBehaviour {
 
             heroAnimator.SetFloat("horizontalSpeed", Mathf.Abs(heroPhysics.currentVelocity.x / Time.deltaTime));
             heroAnimator.SetFloat("verticalSpeed", heroPhysics.currentVelocity.y / Time.deltaTime);
-            Debug.Log("vspeed: " + heroPhysics.currentVelocity.y / Time.deltaTime);
             heroAnimator.SetBool("onGround", heroPhysics.collisions.below);
             heroAnimator.SetBool("crouch", false);
             heroAnimator.SetBool("hit", invincible);
@@ -123,7 +122,7 @@ public class Player : MonoBehaviour {
             } else {
                 invincible = false;
                 UtilControls.Freeze();
-                //heroAnimator.SetBool("dead", true);
+                heroAnimator.SetBool("dead", true);
                 StartCoroutine(GameObject.FindGameObjectWithTag("MainCamera").GetComponent<FadeScene>().FadeOutToScene("main"));
             }
         }

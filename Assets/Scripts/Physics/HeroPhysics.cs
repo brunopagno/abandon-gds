@@ -19,8 +19,8 @@ public class HeroPhysics : RaycastController {
 	public override void Start() {
 		base.Start ();
 
-        collisions.filtered = new HashSet<OneWayFlag>();
-        collisions.justFiltered = new HashSet<OneWayFlag>();
+        collisions.filtered = new HashSet<Collider2D>();
+        collisions.justFiltered = new HashSet<Collider2D>();
 	}
 
     public void Move(Vector3 velocity, bool standingOnPlatform = false) {
@@ -70,12 +70,12 @@ public class HeroPhysics : RaycastController {
 				}
 				OneWayFlag oneWay = hit.collider.GetComponent<OneWayFlag>();
 				if (oneWay != null) {
-                    if (collisions.filtered.Contains(oneWay)) {
-                        collisions.justFiltered.Add(oneWay);
+                    if (collisions.filtered.Contains(hit.collider)) {
+                        collisions.justFiltered.Add(hit.collider);
                         continue;
                     }
 					if (directionX == 1 ? oneWay.filterLeft : oneWay.filterRight) {
-                        collisions.justFiltered.Add(oneWay);
+                        collisions.justFiltered.Add(hit.collider);
 						continue;
 					}
 				}
@@ -125,16 +125,16 @@ public class HeroPhysics : RaycastController {
 			if (hit) {
 				OneWayFlag oneWay = hit.collider.GetComponent<OneWayFlag>();
 				if (oneWay != null) {
-                    if (collisions.filtered.Contains(oneWay)) {
-                        collisions.justFiltered.Add(oneWay);
+                    if (collisions.filtered.Contains(hit.collider)) {
+                        collisions.justFiltered.Add(hit.collider);
                         continue;
                     }
                     if (directionY == -1 && collisions.dropPlatform) {
-                        collisions.justFiltered.Add(oneWay);
+                        collisions.justFiltered.Add(hit.collider);
                         continue;
                     }
 					if (directionY == 1 ? oneWay.filterBottom : oneWay.filterTop) {
-                        collisions.justFiltered.Add(oneWay);
+                        collisions.justFiltered.Add(hit.collider);
 						continue;
 					}
 				}
@@ -216,8 +216,8 @@ public class HeroPhysics : RaycastController {
 		public bool descendingSlope;
 		public float slopeAngle, slopeAngleOld;
 		public Vector3 velocityOld;
-        public HashSet<OneWayFlag> filtered;
-        public HashSet<OneWayFlag> justFiltered;
+        public HashSet<Collider2D> filtered;
+        public HashSet<Collider2D> justFiltered;
         public bool dropPlatform;
 
 		public void Reset() {
@@ -230,7 +230,7 @@ public class HeroPhysics : RaycastController {
 			slopeAngle = 0;
 
             filtered.Clear();
-            foreach(OneWayFlag oneWay in justFiltered) {
+            foreach(Collider2D oneWay in justFiltered) {
                 filtered.Add(oneWay);
             }
             justFiltered.Clear();

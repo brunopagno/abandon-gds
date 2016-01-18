@@ -4,6 +4,8 @@ using System;
 
 public class Collectible : Trigger {
 
+    public string identifier;
+
     public override void Activate() {
         GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().Collect(this);
         GameObject.Destroy(this.gameObject);
