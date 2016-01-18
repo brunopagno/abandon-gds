@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MemoryTrigger : Trigger {
 
+    public string identifier;
     public string sceneName;
 
     public override void Activate() {
