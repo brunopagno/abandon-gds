@@ -117,7 +117,7 @@ public class Player : MonoBehaviour {
             hits -= 1;
             StartCoroutine(UtilControls.CameraShake(0.1f, 0.5f));
             if (hits > 0) {
-                StartCoroutine(UtilControls.OneSecFreeze());
+                StartCoroutine(UtilControls.MomentFreeze(0.2f));
                 StartCoroutine(FlashHero());
             } else {
                 invincible = false;

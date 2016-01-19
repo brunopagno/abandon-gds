@@ -13,9 +13,9 @@ public static class UtilControls {
         running = true;
     }
 
-    public static IEnumerator OneSecFreeze() {
+    public static IEnumerator MomentFreeze(float time) {
         running = false;
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(time);
         running = true;
     }
 
