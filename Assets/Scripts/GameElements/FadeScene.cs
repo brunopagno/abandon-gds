@@ -23,7 +23,7 @@ public class FadeScene : MonoBehaviour {
     public IEnumerator FadeOutToScene(string scene) {
         UtilControls.Freeze();
         float fadeTime = BeginFade(1);
-        yield return new WaitForSeconds(fadeTime);
+        yield return new WaitForSeconds(fadeTime * 1.1f);
         SceneManager.LoadScene(scene);
     }
 

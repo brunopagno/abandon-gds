@@ -4,7 +4,7 @@ using System;
 
 public class HoleTrigger : Trigger {
 
-    public GameObject target;
+    public GameObject[] targets;
     private bool triggered = false;
 
     public override void Activate() {
@@ -12,7 +12,9 @@ public class HoleTrigger : Trigger {
 
         StartCoroutine(UtilControls.MomentFreeze(0.5f));
         StartCoroutine(UtilControls.CameraShake(0.5f, 0.3f));
-        target.SetActive(!target.activeSelf);
+        foreach (GameObject target in targets) {
+            target.SetActive(!target.activeSelf);
+        }
         triggered = true;
     }
 
