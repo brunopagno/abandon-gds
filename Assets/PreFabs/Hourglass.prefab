@@ -26,7 +26,7 @@ GameObject:
   - 4: {fileID: 455262}
   - 212: {fileID: 21212886}
   m_Layer: 0
-  m_Name: mansion_17
+  m_Name: texture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68,7 +68,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 148448}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 26.9154, y: -0.8644568, z: 0}
+  m_LocalPosition: {x: 5.73, y: -0.8644568, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 455262}
@@ -103,7 +103,6 @@ MonoBehaviour:
     m_Bits: 256
   size: {x: 0.3, y: 0.61}
   active: 0
-  scene: main
   cutScene: {fileID: 0}
 --- !u!198 &19863862
 ParticleSystem:
@@ -1671,7 +1670,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300034, guid: 445c814467dd548f1b3f35bcbdd522e6, type: 3}
+  m_Sprite: {fileID: 21300076, guid: 50c3d425375214b05ac1d65adab98632, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -212,6 +212,15 @@ Prefab:
       propertyPath: cutScene
       value: 
       objectReference: {fileID: 1441251824}
+    - target: {fileID: 150036, guid: d1fbed254f114b143b1089134ab90aa7, type: 2}
+      propertyPath: m_Name
+      value: texture
+      objectReference: {fileID: 0}
+    - target: {fileID: 21212886, guid: d1fbed254f114b143b1089134ab90aa7, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300076, guid: 50c3d425375214b05ac1d65adab98632,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d1fbed254f114b143b1089134ab90aa7, type: 2}
   m_IsPrefabParent: 0
