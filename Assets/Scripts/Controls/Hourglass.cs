@@ -3,7 +3,6 @@ using System.Collections;
 
 public class Hourglass : Trigger {
 
-    public string scene = "main";
     public Animator cutScene;
 
     public override void Activate() {
@@ -11,13 +10,6 @@ public class Hourglass : Trigger {
         UtilControls.Freeze();
 
         cutScene.Play("cutscene");
-        while (cutScene.GetAnimatorTransitionInfo(0).IsName("cutscene")) {
-            print("playing cutscene");
-        }
-
-        print("done with cutscene");
-
-        StartCoroutine(Camera.main.GetComponent<FadeScene>().FadeOutToScene(scene));
     }
 
     public override void Deactivate() { /* nothing */ }
