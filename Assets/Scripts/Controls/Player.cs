@@ -96,7 +96,7 @@ public class Player : MonoBehaviour {
             heroAnimator.SetFloat("verticalSpeed", heroPhysics.currentVelocity.y / Time.deltaTime);
             heroAnimator.SetBool("onGround", heroPhysics.collisions.below);
             heroAnimator.SetBool("crouch", false);
-            heroAnimator.SetBool("hit", invincible);
+            heroAnimator.SetBool("hit", false);
         }
         if (invincible) {
             invincibleTimer -= Time.deltaTime;
@@ -117,12 +117,12 @@ public class Player : MonoBehaviour {
             hits -= 1;
             StartCoroutine(UtilControls.CameraShake(0.1f, 0.5f));
             if (hits > 0) {
+                heroAnimator.SetBool("hit", true);
                 StartCoroutine(UtilControls.MomentFreeze(0.2f));
                 StartCoroutine(FlashHero());
             } else {
                 invincible = false;
                 UtilControls.Freeze();
-                heroAnimator.SetBool("dead", true);
                 StartCoroutine(GameObject.FindGameObjectWithTag("MainCamera").GetComponent<FadeScene>().FadeOutToScene("main"));
             }
         }
