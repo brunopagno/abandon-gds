@@ -8,4 +8,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/main.unity
   - enabled: 1
-    path: Assets/Scenes/memoryan.unity
+    path: Assets/Scenes/piano_memory.unity

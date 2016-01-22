@@ -55,10 +55,6 @@ public class Player : MonoBehaviour {
     }
 
     void Update() {
-        if (Input.GetButtonDown("Action")) {
-            StartCoroutine(UtilControls.CameraShake(0.1f, 0.5f));
-        }
-
         if (UtilControls.running) {
             if (heroPhysics.collisions.above || heroPhysics.collisions.below) {
                 velocity.y = 0;
