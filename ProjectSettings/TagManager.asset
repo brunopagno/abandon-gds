@@ -49,3 +49,6 @@ TagManager:
   - name: Hero
     uniqueID: 293313425
     locked: 0
+  - name: Foreground
+    uniqueID: 1089412789
+    locked: 0
