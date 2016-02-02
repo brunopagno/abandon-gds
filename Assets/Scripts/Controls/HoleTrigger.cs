@@ -19,9 +19,7 @@ public class HoleTrigger : Trigger {
 
     public void Execute() {
         foreach (GameObject target in targets) {
-            print("Target activeness => " + target.activeSelf);
             target.SetActive(!target.activeSelf);
-            print("Target activeness => " + target.activeSelf);
         }
         triggered = true;
     }
