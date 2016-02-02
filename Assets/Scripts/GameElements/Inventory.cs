@@ -33,4 +33,13 @@ public class Inventory {
             }
         }
     }
+
+    public bool ContainsItem(string identifier) {
+        foreach (Collectible item in items) {
+            if (item.identifier.Equals(identifier)) {
+                return true;
+            }
+        }
+        return false;
+    }
 }

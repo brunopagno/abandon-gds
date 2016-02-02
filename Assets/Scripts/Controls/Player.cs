@@ -104,6 +104,10 @@ public class Player : MonoBehaviour {
         inventory.AddItem(collectible);
     }
 
+    public bool HasItem(string identifier) {
+        return inventory.ContainsItem(identifier);
+    }
+
     public void Hit() {
         if (!invincible) {
             invincible = true;

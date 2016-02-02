@@ -9,7 +9,7 @@ public class DoorTrigger : Trigger {
 
     public override void Activate() {
         if (triggered) return;
-        // TODO: Test if has key
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().HasItem(identifier);
 
         this.Execute();
     }
