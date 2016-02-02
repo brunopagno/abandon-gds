@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 public class Inventory {
 
-    private List<Collectible> items;
+    public List<Collectible> items;
 
     public Inventory() {
         items = new List<Collectible>();

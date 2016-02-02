@@ -9,7 +9,7 @@ public class Hourglass : Trigger {
         UtilControls.Freeze();
         cutScene.Play("cutscene");
 
-        GameObject.FindGameObjectWithTag("ThingsController").GetComponent<ThingsController>().ClearCurrent();
+        GameObject.FindGameObjectWithTag("ThingsController").GetComponent<ThingsController>().ClearCurrentMemory();
     }
 
     public override void Deactivate() { /* nothing */ }

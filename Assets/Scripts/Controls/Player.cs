@@ -12,7 +12,7 @@ public class Player : MonoBehaviour {
     public float jumpAttenuation = 2f;
     public float timeInvincible = 1.0f;
 
-    public Inventory inventory;
+    public Inventory inventory = new Inventory();
 
     float accelerationTimeAirborne = 0.2f;
     float accelerationTimeGrounded = 0.1f;
@@ -41,8 +41,6 @@ public class Player : MonoBehaviour {
 
         jumps = maxJumps;
         invincibleTimer = timeInvincible;
-
-        inventory = new Inventory();
     }
 
     void SetFlip(float velocity) {
