@@ -14,17 +14,25 @@ public class ThingsController : MonoBehaviour {
             currentTrigger = value;
         }
     }
-    private List<string> finished = new List<string>();
+    private List<string> finishedTrigger = new List<string>();
+    private List<string> triggeredHoles = new List<string>();
 
     void Awake() {
         DontDestroyOnLoad(transform.gameObject);
     }
 
     void OnLevelWasLoaded() {
-        foreach (string identifier in finished) {
+        foreach (string identifier in finishedTrigger) {
             GameObject trigger = FindTriggerByIdentifier(identifier);
             if (trigger != null) {
                 trigger.SetActive(false);
+            }
+        }
+
+        foreach (string identifier in triggeredHoles) {
+            GameObject trigger = FindHoleByIdentifier(identifier);
+            if (trigger != null) {
+                trigger.GetComponent<HoleTrigger>().Execute();
             }
         }
     }
@@ -39,7 +47,21 @@ public class ThingsController : MonoBehaviour {
         return null;
     }
 
+    GameObject FindHoleByIdentifier(string identifier) {
+        GameObject[] triggers = GameObject.FindGameObjectsWithTag("HoleTrigger");
+        foreach (GameObject trigger in triggers) {
+            if (trigger.GetComponent<HoleTrigger>().identifier == identifier) {
+                return trigger;
+            }
+        }
+        return null;
+    }
+
+    public void DidTrigger(string hole) {
+        triggeredHoles.Add(hole);
+    }
+
     public void ClearCurrent() {
-        finished.Add(CurrentTrigger);
+        finishedTrigger.Add(CurrentTrigger);
     }
 }

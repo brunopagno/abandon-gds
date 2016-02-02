@@ -46,7 +46,6 @@ public class Player : MonoBehaviour {
     }
 
     void SetFlip(float velocity) {
-        Vector3 heroScale = transform.localScale;
         if (velocity > 0.5) {
             heroRenderer.flipX = false;
         } else if (velocity < -0.5) {
