@@ -247,7 +247,7 @@ GameObject:
   - 114: {fileID: 393013782}
   m_Layer: 0
   m_Name: MaidMemory
-  m_TagString: Untagged
+  m_TagString: MemoryTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -294,7 +294,7 @@ GameObject:
   - 114: {fileID: 486239682}
   m_Layer: 0
   m_Name: BasementMemory
-  m_TagString: Untagged
+  m_TagString: MemoryTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -341,7 +341,7 @@ GameObject:
   - 114: {fileID: 555606445}
   m_Layer: 0
   m_Name: BedroomMemory
-  m_TagString: Untagged
+  m_TagString: MemoryTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2622,7 +2622,7 @@ GameObject:
   - 114: {fileID: 1232995685}
   m_Layer: 0
   m_Name: PianoMemory
-  m_TagString: Untagged
+  m_TagString: MemoryTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

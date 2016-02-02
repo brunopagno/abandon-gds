@@ -15,6 +15,7 @@ public class MemoryTrigger : Trigger {
 
     public override void Interact() {
         StartCoroutine(GameObject.FindGameObjectWithTag("MainCamera").GetComponent<FadeScene>().FadeOutToScene(sceneName));
+        GameObject.FindGameObjectWithTag("ThingsController").GetComponent<ThingsController>().CurrentTrigger = identifier;
     }
 
     public override void Deactivate() {

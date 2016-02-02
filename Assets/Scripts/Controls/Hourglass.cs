@@ -6,10 +6,10 @@ public class Hourglass : Trigger {
     public Animator cutScene;
 
     public override void Activate() {
-        // this should probably set somewhere that the memory was "completed"
         UtilControls.Freeze();
-
         cutScene.Play("cutscene");
+
+        GameObject.FindGameObjectWithTag("ThingsController").GetComponent<ThingsController>().ClearCurrent();
     }
 
     public override void Deactivate() { /* nothing */ }
