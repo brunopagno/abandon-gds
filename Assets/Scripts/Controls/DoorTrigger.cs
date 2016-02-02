@@ -9,9 +9,9 @@ public class DoorTrigger : Trigger {
 
     public override void Activate() {
         if (triggered) return;
-        GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().HasItem(identifier);
-
-        this.Execute();
+        if (GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().HasItem(identifier)) {
+            this.Execute();
+        }
     }
 
     public void Execute() {
