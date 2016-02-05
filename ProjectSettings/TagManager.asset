@@ -43,6 +43,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 990786699
+    locked: 0
   - name: Mansion
     uniqueID: 3552993169
     locked: 0
