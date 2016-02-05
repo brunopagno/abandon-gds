@@ -19,3 +19,5 @@ EditorBuildSettings:
     path: Assets/Scenes/hall_memory.unity
   - enabled: 1
     path: Assets/Scenes/office_memory.unity
+  - enabled: 1
+    path: Assets/Scenes/opening.unity
