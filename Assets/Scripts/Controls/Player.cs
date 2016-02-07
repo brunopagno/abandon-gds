@@ -18,6 +18,9 @@ public class Player : MonoBehaviour {
     float accelerationTimeGrounded = 0.1f;
     float moveSpeed = 6;
     int hits = 3;
+    public int Hits {
+        get { return hits; }
+    }
     float invincibleTimer;
     bool invincible;
     bool lastCollisionBelow = true;
