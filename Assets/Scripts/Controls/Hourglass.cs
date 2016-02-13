@@ -3,7 +3,12 @@ using System.Collections;
 
 public class Hourglass : Trigger {
 
+    public GameObject cutsceneObject;
     public Animator cutScene;
+
+    void Start() {
+        //cutScene = cutsceneObject.GetComponent<Animator>();
+    }
 
     public override void Activate() {
         UtilControls.Freeze();
