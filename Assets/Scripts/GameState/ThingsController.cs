@@ -2,6 +2,7 @@
 using System.Collections;
 using System;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class ThingsController : MonoBehaviour {
 
@@ -17,6 +18,7 @@ public class ThingsController : MonoBehaviour {
     private List<string> finishedMemories = new List<string>();
     private List<string> triggeredHoles = new List<string>();
     private List<string> collectedKeys = new List<string>();
+    private Vector3 thePlayerPosition;
 
     void Awake() {
         DontDestroyOnLoad(transform.gameObject);
@@ -52,6 +54,11 @@ public class ThingsController : MonoBehaviour {
                 key.SetActive(false);
             }
         }
+
+        // POSITIONING
+        if (SceneManager.GetActiveScene().name == "main") {
+            player.transform.position = thePlayerPosition;
+        }
     }
 
     GameObject FindMemoryTriggerByIdentifier(string identifier) {
@@ -82,6 +89,10 @@ public class ThingsController : MonoBehaviour {
             }
         }
         return null;
+    }
+
+    public void UpdateThePositioning(Vector3 positioning) {
+        this.thePlayerPosition = positioning;
     }
 
     public void DidTrigger(string hole) {

@@ -4,13 +4,15 @@ using System.Collections;
 public class Hourglass : Trigger {
 
     public GameObject cutsceneObject;
-    public Animator cutScene;
+    private Animator cutScene;
 
     void Start() {
         //cutScene = cutsceneObject.GetComponent<Animator>();
     }
 
     public override void Activate() {
+        cutsceneObject.SetActive(true);
+        cutScene = cutsceneObject.GetComponent<Animator>();
         UtilControls.Freeze();
         cutScene.Play("cutscene");
 

@@ -421,6 +421,10 @@ Prefab:
       propertyPath: lengthInSec
       value: 0.22
       objectReference: {fileID: 0}
+    - target: {fileID: 11416630, guid: d1fbed254f114b143b1089134ab90aa7, type: 2}
+      propertyPath: cutsceneObject
+      value: 
+      objectReference: {fileID: 1349267714}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d1fbed254f114b143b1089134ab90aa7, type: 2}
   m_IsPrefabParent: 0
@@ -547,7 +551,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1349267715
 MonoBehaviour:
   m_ObjectHideFlags: 0
