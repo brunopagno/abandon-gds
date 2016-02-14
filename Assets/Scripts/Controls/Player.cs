@@ -54,6 +54,10 @@ public class Player : MonoBehaviour {
         }
     }
 
+    public void ForceJump(float force) {
+        velocity.y = force;
+    }
+
     void Update() {
         if (UtilControls.running) {
             if (heroPhysics.collisions.above || heroPhysics.collisions.below) {
