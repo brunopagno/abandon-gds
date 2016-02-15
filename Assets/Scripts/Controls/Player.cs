@@ -132,6 +132,11 @@ public class Player : MonoBehaviour {
         }
     }
 
+    public void Kill() {
+        UtilControls.Freeze();
+        StartCoroutine(GameObject.FindGameObjectWithTag("MainCamera").GetComponent<FadeScene>().FadeOutToScene("main"));
+    }
+
     private IEnumerator FlashHero() {
         while (invincible) {
             heroRenderer.color = Color.red;

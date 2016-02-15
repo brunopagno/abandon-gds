@@ -71,7 +71,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 11472168, guid: 94dae5f938143a14dab29f4d511b84da, type: 2}
   showUp: {fileID: 19846966}
-  fireRate: 1.6
+  fireRate: 4
+  volleyShots: 3
+  volleyTime: 0.5
   range: 4
 --- !u!198 &19846966
 ParticleSystem:
