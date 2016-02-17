@@ -393,6 +393,14 @@ Prefab:
       propertyPath: m_Name
       value: Hell (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 11408890, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
+      propertyPath: bulletDirection.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11408890, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
+      propertyPath: bulletDirection.y
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
   m_IsPrefabParent: 0
@@ -893,6 +901,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 11408890, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
+      propertyPath: bulletDirection.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11408890, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
+      propertyPath: bulletDirection.y
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
   m_IsPrefabParent: 0
@@ -923,7 +939,7 @@ Transform:
   m_Children:
   - {fileID: 1441251823}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
 --- !u!1001 &1134050641
 Prefab:
   m_ObjectHideFlags: 0
@@ -1015,6 +1031,14 @@ Prefab:
       propertyPath: m_Name
       value: Hell (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 11408890, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
+      propertyPath: bulletDirection.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11408890, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
+      propertyPath: bulletDirection.y
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
   m_IsPrefabParent: 0
@@ -1047,7 +1071,7 @@ Transform:
   - {fileID: 856083004}
   - {fileID: 924049623}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
 --- !u!212 &1256400691
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2755,7 +2779,15 @@ Prefab:
       objectReference: {fileID: 1134050642}
     - target: {fileID: 160274, guid: 2d9dfb99b47130a4ea55e13e34521456, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11407668, guid: 2d9dfb99b47130a4ea55e13e34521456, type: 2}
+      propertyPath: focusAreaSize.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11407668, guid: 2d9dfb99b47130a4ea55e13e34521456, type: 2}
+      propertyPath: verticalOffset
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2d9dfb99b47130a4ea55e13e34521456, type: 2}
@@ -2899,6 +2931,14 @@ Prefab:
     - target: {fileID: 145520, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
       propertyPath: m_Name
       value: Hell (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 11408890, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
+      propertyPath: bulletDirection.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11408890, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
+      propertyPath: bulletDirection.y
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}

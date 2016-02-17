@@ -9,6 +9,8 @@ public class TheBulletHell : MonoBehaviour {
     public int volleyShots = 3;
     public float volleyTime = 1;
     public float range = 4;
+    public float lifespan = 5;
+    public Vector2 bulletDirection = Vector2.left;
 
     float timer = 0;
     float volleyTimer = 0;
@@ -29,6 +31,8 @@ public class TheBulletHell : MonoBehaviour {
                     timer = 0;
                     Bullet tiro = GameObject.Instantiate(bullet);
                     tiro.transform.position = this.transform.position;
+                    tiro.lifeSpan = lifespan;
+                    tiro.direction = bulletDirection;
                     shots += 1;
                     showUp.Play();
                     if (shots >= volleyShots) {
