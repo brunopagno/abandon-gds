@@ -1971,7 +1971,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 666111993}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.9, z: 0}
+  m_LocalPosition: {x: 0, y: 2.53, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1165214185}
@@ -2095,7 +2095,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11408890, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
       propertyPath: volleyTime
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 145520, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
       propertyPath: m_Name
@@ -2104,6 +2104,10 @@ Prefab:
     - target: {fileID: 11408890, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
       propertyPath: volleyShots
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11408890, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
+      propertyPath: bulletDirection.x
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
@@ -2149,6 +2153,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11408890, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
       propertyPath: volleyShots
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11408890, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
+      propertyPath: volleyTime
       value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2491,7 +2499,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11408890, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
       propertyPath: volleyTime
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 145520, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
       propertyPath: m_Name
@@ -2500,6 +2508,10 @@ Prefab:
     - target: {fileID: 11408890, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
       propertyPath: volleyShots
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11408890, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
+      propertyPath: bulletDirection.x
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
@@ -2834,7 +2846,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11408890, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
       propertyPath: volleyTime
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 145520, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
       propertyPath: m_Name
