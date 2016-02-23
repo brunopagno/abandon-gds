@@ -136,6 +136,10 @@ Prefab:
       propertyPath: m_Name
       value: SpringJump (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 182832, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
   m_IsPrefabParent: 0
@@ -318,6 +322,10 @@ Prefab:
       propertyPath: m_Name
       value: SpringJump (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 182832, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
   m_IsPrefabParent: 0
@@ -376,6 +384,10 @@ Prefab:
       propertyPath: m_Name
       value: SpringJump (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 182832, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
   m_IsPrefabParent: 0
@@ -433,6 +445,10 @@ Prefab:
     - target: {fileID: 182832, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
       propertyPath: m_Name
       value: SpringJump (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182832, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
@@ -533,6 +549,10 @@ Prefab:
     - target: {fileID: 182832, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
       propertyPath: m_Name
       value: SpringJump (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182832, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
@@ -670,7 +690,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 401212, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -32.46
+      value: -32.95
       objectReference: {fileID: 0}
     - target: {fileID: 401212, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
       propertyPath: m_LocalPosition.y
@@ -715,6 +735,10 @@ Prefab:
     - target: {fileID: 11408890, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
       propertyPath: bulletDirection.x
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 145520, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
@@ -885,8 +909,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 1089412789
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8cd1b746ce4cf4a2484f96b8adfe5822, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1074,6 +1098,10 @@ Prefab:
       propertyPath: m_Name
       value: SpringJump (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 182832, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
   m_IsPrefabParent: 0
@@ -1232,6 +1260,10 @@ Prefab:
       propertyPath: m_Name
       value: SpringJump (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 182832, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
   m_IsPrefabParent: 0
@@ -1248,7 +1280,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 401212, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -32.46
+      value: -32.95
       objectReference: {fileID: 0}
     - target: {fileID: 401212, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1276,7 +1308,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 401212, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 11408890, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
       propertyPath: volleyTime
@@ -1293,6 +1325,10 @@ Prefab:
     - target: {fileID: 11408890, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
       propertyPath: bulletDirection.x
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 145520, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
@@ -1471,6 +1507,10 @@ Prefab:
       propertyPath: m_Name
       value: SpringJump (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 182832, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
   m_IsPrefabParent: 0
@@ -1587,6 +1627,10 @@ Prefab:
     - target: {fileID: 182832, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
       propertyPath: m_Name
       value: SpringJump (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182832, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
@@ -1725,6 +1769,10 @@ Prefab:
       propertyPath: m_Name
       value: SpringJump (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 182832, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
   m_IsPrefabParent: 0
@@ -1732,64 +1780,6 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 482236, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
   m_PrefabInternal: {fileID: 1082315788}
---- !u!1001 &1096234249
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 401212, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -32.46
-      objectReference: {fileID: 0}
-    - target: {fileID: 401212, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -0.87
-      objectReference: {fileID: 0}
-    - target: {fileID: 401212, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -10
-      objectReference: {fileID: 0}
-    - target: {fileID: 401212, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 401212, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 401212, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 401212, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 401212, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 11408890, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
-      propertyPath: volleyTime
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 11408890, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
-      propertyPath: lifespan
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 145520, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
-      propertyPath: m_Name
-      value: Hell (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 11408890, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
-      propertyPath: bulletDirection.x
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1001 &1134050641
 Prefab:
   m_ObjectHideFlags: 0
@@ -1799,11 +1789,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 491482, guid: 4878d10e1bd027f479dc4d9f205ee65c, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -29.99
+      value: -30.16
       objectReference: {fileID: 0}
     - target: {fileID: 491482, guid: 4878d10e1bd027f479dc4d9f205ee65c, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -8.25
+      value: -7.79
       objectReference: {fileID: 0}
     - target: {fileID: 491482, guid: 4878d10e1bd027f479dc4d9f205ee65c, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1827,7 +1817,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 491482, guid: 4878d10e1bd027f479dc4d9f205ee65c, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 172642, guid: 4878d10e1bd027f479dc4d9f205ee65c, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4878d10e1bd027f479dc4d9f205ee65c, type: 2}
@@ -1890,8 +1884,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 1089412789
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: cec8c470e516d40bc8b31010f9654d0e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3909,7 +3903,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1089412789
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4031,6 +4025,10 @@ Prefab:
     - target: {fileID: 182832, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
       propertyPath: m_Name
       value: SpringJump (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182832, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
@@ -4189,6 +4187,10 @@ Prefab:
       propertyPath: m_Name
       value: SpringJump (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 182832, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
   m_IsPrefabParent: 0
@@ -4239,6 +4241,10 @@ Prefab:
       propertyPath: target
       value: 
       objectReference: {fileID: 1134050642}
+    - target: {fileID: 160274, guid: 2d9dfb99b47130a4ea55e13e34521456, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2d9dfb99b47130a4ea55e13e34521456, type: 2}
   m_IsPrefabParent: 0
@@ -4296,6 +4302,10 @@ Prefab:
     - target: {fileID: 182832, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
       propertyPath: m_Name
       value: SpringJump (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182832, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
@@ -4414,8 +4424,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 1089412789
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: c02ddb022b9cc474eae448c8f2f75514, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4470,6 +4480,10 @@ Prefab:
     - target: {fileID: 182832, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
       propertyPath: m_Name
       value: SpringJump (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182832, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
@@ -4529,6 +4543,10 @@ Prefab:
       propertyPath: m_Name
       value: SpringJump (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 182832, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
   m_IsPrefabParent: 0
@@ -4582,6 +4600,10 @@ Prefab:
     - target: {fileID: 11486026, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
       propertyPath: size.y
       value: 0.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 182832, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
