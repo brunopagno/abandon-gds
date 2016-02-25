@@ -260,6 +260,10 @@ Prefab:
       propertyPath: volleyShots
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 11408890, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3b3a267a4fcfe884589baf15b0a8f899, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
   m_IsPrefabParent: 0
@@ -471,6 +475,7 @@ MonoBehaviour:
     m_Bits: 256
   size: {x: 0.3, y: 0.61}
   active: 0
+  clip: {fileID: 0}
   cutsceneObject: {fileID: 1186510541}
 --- !u!4 &426740620
 Transform:
@@ -2315,6 +2320,10 @@ Prefab:
       propertyPath: lifespan
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 11408890, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3b3a267a4fcfe884589baf15b0a8f899, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
   m_IsPrefabParent: 0
@@ -2683,6 +2692,10 @@ Prefab:
       propertyPath: volleyShots
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 11408890, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3b3a267a4fcfe884589baf15b0a8f899, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
   m_IsPrefabParent: 0
@@ -3263,6 +3276,10 @@ Prefab:
       propertyPath: volleyShots
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 11408890, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3b3a267a4fcfe884589baf15b0a8f899, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8040a8a64086c03428a18e4e2a94d546, type: 2}
   m_IsPrefabParent: 0

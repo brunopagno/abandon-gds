@@ -14,7 +14,7 @@ public class MemoryTrigger : Trigger {
     }
 
     public override void Interact() {
-        ThingsController tc = GameObject.FindGameObjectWithTag("ThingsController").GetComponent<ThingsController>();        
+        ThingsController tc = GameObject.FindGameObjectWithTag("ThingsController").GetComponent<ThingsController>();
         tc.CurrentMemory = identifier;
         tc.UpdateThePositioning(GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().transform.position);
         StartCoroutine(GameObject.FindGameObjectWithTag("MainCamera").GetComponent<FadeScene>().FadeOutToScene(sceneName));

@@ -7,6 +7,9 @@ public class Collectible : Trigger {
     public string identifier;
 
     public override void Activate() {
+        if (source) {
+            source.PlayOneShot(clip, 0.5f);
+        }
         GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().Collect(this);
         GameObject.FindGameObjectWithTag("ThingsController").GetComponent<ThingsController>().CollectedKey(identifier);
         GameObject.Destroy(this.gameObject);

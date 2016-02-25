@@ -13,6 +13,9 @@ public class HoleTrigger : Trigger {
 
         StartCoroutine(UtilControls.MomentFreeze(0.5f));
         StartCoroutine(UtilControls.CameraShake(0.5f, 0.3f));
+        if (source) {
+            source.PlayOneShot(clip, 0.5f);
+        }
         this.Execute();
         GameObject.FindGameObjectWithTag("ThingsController").GetComponent<ThingsController>().DidTrigger(identifier);
     }

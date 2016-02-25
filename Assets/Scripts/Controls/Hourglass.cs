@@ -6,13 +6,12 @@ public class Hourglass : Trigger {
     public GameObject cutsceneObject;
     private Animator cutScene;
 
-    void Start() {
-        //cutScene = cutsceneObject.GetComponent<Animator>();
-    }
-
     public override void Activate() {
         cutsceneObject.SetActive(true);
         cutScene = cutsceneObject.GetComponent<Animator>();
+        if (source) {
+            source.PlayOneShot(clip, 0.5f);
+        }
         UtilControls.Freeze();
         cutScene.Play("cutscene");
 

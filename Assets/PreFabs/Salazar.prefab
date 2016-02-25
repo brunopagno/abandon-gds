@@ -9,7 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 412812}
   - 95: {fileID: 9555156}
-  - 212: {fileID: 21208756}
+  - 212: {fileID: 21257130}
   m_Layer: 8
   m_Name: Animation
   m_TagString: Untagged
@@ -82,7 +82,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 172642}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.54, y: -11.28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 412812}
@@ -102,7 +102,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0.12, y: -0.06}
   serializedVersion: 2
-  m_Size: {x: 0.55, y: 0.81}
+  m_Size: {x: 0.49, y: 0.81}
 --- !u!95 &9555156
 Animator:
   serializedVersion: 3
@@ -159,6 +159,7 @@ MonoBehaviour:
   maxJumps: 1
   jumpAttenuation: 2
   timeInvincible: 1.09
+  hitClip: {fileID: 8300000, guid: b9b3763decd713140a1cd915252f70d2, type: 3}
 --- !u!212 &21207838
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -189,7 +190,7 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!212 &21208756
+--- !u!212 &21257130
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -215,7 +216,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 50c3d425375214b05ac1d65adab98632, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

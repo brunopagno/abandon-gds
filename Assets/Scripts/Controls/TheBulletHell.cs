@@ -11,6 +11,8 @@ public class TheBulletHell : MonoBehaviour {
     public float range = 4;
     public float lifespan = 5;
     public Vector2 bulletDirection = Vector2.left;
+    public AudioClip clip;
+    protected AudioSource source;
 
     float timer = 0;
     float volleyTimer = 0;
@@ -18,6 +20,7 @@ public class TheBulletHell : MonoBehaviour {
 
     void Start() {
         volleyTimer = volleyTime;
+        source = Camera.main.GetComponent<AudioSource>();
     }
 
 	void Update() {
@@ -35,6 +38,9 @@ public class TheBulletHell : MonoBehaviour {
                     tiro.direction = bulletDirection;
                     shots += 1;
                     showUp.Play();
+                    if (source) {
+                        source.PlayOneShot(clip, 0.5f);
+                    }
                     if (shots >= volleyShots) {
                         volleyTimer = 0;
                         shots = 0;

@@ -7,6 +7,12 @@ public abstract class Trigger : MonoBehaviour {
     public Vector2 size = new Vector2(1, 3);
     [HideInInspector]
     public bool active = false;
+    protected AudioSource source;
+    public AudioClip clip;
+
+    void Start() {
+        source = Camera.main.GetComponent<AudioSource>();
+    }
 
     void Update() {
         if (UtilControls.running) {

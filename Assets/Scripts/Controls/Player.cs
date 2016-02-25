@@ -13,6 +13,8 @@ public class Player : MonoBehaviour {
     public float timeInvincible = 1.0f;
 
     public Inventory inventory = new Inventory();
+    protected AudioSource source;
+    public AudioClip hitClip;
 
     float accelerationTimeAirborne = 0.2f;
     float accelerationTimeGrounded = 0.1f;
@@ -44,6 +46,8 @@ public class Player : MonoBehaviour {
 
         jumps = maxJumps;
         invincibleTimer = timeInvincible;
+
+        source = Camera.main.GetComponent<AudioSource>();
     }
 
     void SetFlip(float velocity) {
@@ -119,6 +123,9 @@ public class Player : MonoBehaviour {
         if (!invincible) {
             invincible = true;
             hits -= 1;
+            if (source) {
+                source.PlayOneShot(hitClip, 0.5f);
+            }
             StartCoroutine(UtilControls.CameraShake(0.1f, 0.5f));
             if (hits > 0) {
                 heroAnimator.SetBool("hit", true);

@@ -10,6 +10,9 @@ public class DoorTrigger : Trigger {
     public override void Activate() {
         if (triggered) return;
         if (GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().HasItem(identifier)) {
+            if (source) {
+                source.PlayOneShot(clip, 0.5f);
+            }
             this.Execute();
         }
     }
