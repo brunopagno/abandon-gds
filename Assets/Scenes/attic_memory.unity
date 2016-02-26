@@ -858,7 +858,7 @@ MonoBehaviour:
     m_Bits: 256
   size: {x: 0.3, y: 0.61}
   active: 0
-  clip: {fileID: 0}
+  clip: {fileID: 8300000, guid: 1b8b2a70efb04a64eb29c57235fc192a, type: 3}
   cutsceneObject: {fileID: 1349267714}
 --- !u!4 &438499765
 Transform:
@@ -4322,9 +4322,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: fc416e1c0cff1d64b9df8e68f1999906, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0

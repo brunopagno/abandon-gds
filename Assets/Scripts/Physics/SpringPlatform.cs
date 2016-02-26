@@ -5,6 +5,9 @@ using System;
 public class SpringPlatform : Trigger {
 
     public override void Activate() {
+        if (source) {
+            source.PlayOneShot(clip, 0.5f);
+        }
         GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().ForceJump(14);
     }
 

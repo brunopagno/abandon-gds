@@ -136,6 +136,10 @@ Prefab:
       propertyPath: m_Name
       value: SpringJump (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 11486026, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 34f3b071ccb373a4cab4242847a993ed, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
   m_IsPrefabParent: 0
@@ -333,6 +337,10 @@ Prefab:
       propertyPath: m_Name
       value: SpringJump (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 11486026, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 34f3b071ccb373a4cab4242847a993ed, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
   m_IsPrefabParent: 0
@@ -383,6 +391,10 @@ Prefab:
       propertyPath: size.y
       value: 0.38
       objectReference: {fileID: 0}
+    - target: {fileID: 11486026, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 34f3b071ccb373a4cab4242847a993ed, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
   m_IsPrefabParent: 0
@@ -437,6 +449,10 @@ Prefab:
       propertyPath: m_Name
       value: SpringJump (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 11486026, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 34f3b071ccb373a4cab4242847a993ed, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
   m_IsPrefabParent: 0
@@ -491,6 +507,10 @@ Prefab:
       propertyPath: m_Name
       value: SpringJump (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 11486026, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 34f3b071ccb373a4cab4242847a993ed, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
   m_IsPrefabParent: 0
@@ -603,6 +623,10 @@ Prefab:
       propertyPath: m_Name
       value: SpringJump (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 11486026, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 34f3b071ccb373a4cab4242847a993ed, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
   m_IsPrefabParent: 0
@@ -707,6 +731,10 @@ Prefab:
       propertyPath: m_Name
       value: SpringJump (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 11486026, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 34f3b071ccb373a4cab4242847a993ed, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
   m_IsPrefabParent: 0
@@ -838,6 +866,10 @@ Prefab:
       value: 
       objectReference: {fileID: 21300086, guid: 50c3d425375214b05ac1d65adab98632,
         type: 3}
+    - target: {fileID: 11486026, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 34f3b071ccb373a4cab4242847a993ed, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
   m_IsPrefabParent: 0
@@ -1001,6 +1033,10 @@ Prefab:
       propertyPath: cutsceneObject
       value: 
       objectReference: {fileID: 1349267714}
+    - target: {fileID: 11416630, guid: d1fbed254f114b143b1089134ab90aa7, type: 2}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 1b8b2a70efb04a64eb29c57235fc192a, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d1fbed254f114b143b1089134ab90aa7, type: 2}
   m_IsPrefabParent: 0
@@ -1059,6 +1095,10 @@ Prefab:
       propertyPath: m_Name
       value: SpringJump (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 11486026, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 34f3b071ccb373a4cab4242847a993ed, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
   m_IsPrefabParent: 0
@@ -1211,6 +1251,10 @@ Prefab:
       propertyPath: m_Name
       value: SpringJump (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 11486026, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 34f3b071ccb373a4cab4242847a993ed, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
   m_IsPrefabParent: 0
@@ -1483,6 +1527,10 @@ Prefab:
       propertyPath: m_Name
       value: SpringJump (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 11486026, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 34f3b071ccb373a4cab4242847a993ed, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
   m_IsPrefabParent: 0
@@ -1640,6 +1688,10 @@ Prefab:
       propertyPath: m_Name
       value: SpringJump (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 11486026, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 34f3b071ccb373a4cab4242847a993ed, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
   m_IsPrefabParent: 0
@@ -1651,6 +1703,84 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 482236, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
   m_PrefabInternal: {fileID: 597335172}
+--- !u!1 &1897732092 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 160274, guid: 2d9dfb99b47130a4ea55e13e34521456, type: 2}
+  m_PrefabInternal: {fileID: 1499561026}
+--- !u!82 &1897732099
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1897732092}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: fc416e1c0cff1d64b9df8e68f1999906, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!4 &1961292598 stripped
 Transform:
   m_PrefabParentObject: {fileID: 482236, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
@@ -1706,6 +1836,10 @@ Prefab:
       propertyPath: m_Name
       value: SpringJump (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 11486026, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 34f3b071ccb373a4cab4242847a993ed, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf79f76d20b09f94c994d2023e7d9668, type: 2}
   m_IsPrefabParent: 0
