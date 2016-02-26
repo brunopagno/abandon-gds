@@ -1856,6 +1856,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 21257130, guid: 4878d10e1bd027f479dc4d9f205ee65c, type: 2}
+      propertyPath: m_SortingLayerID
+      value: 293313425
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4878d10e1bd027f479dc4d9f205ee65c, type: 2}
   m_IsPrefabParent: 0
