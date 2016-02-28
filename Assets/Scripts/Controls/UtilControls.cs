@@ -30,4 +30,10 @@ public static class UtilControls {
         }
     }
 
+    public static IEnumerator MomentPopup(float time, GameObject message) {
+        message.transform.position = new Vector3(0, 0, 10);
+        yield return new WaitForSeconds(time);
+        message.transform.position = new Vector3(900, 0, 10);
+    }
+
 }

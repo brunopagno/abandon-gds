@@ -9,6 +9,7 @@ TagManager:
   - ThingsController
   - HoleTrigger
   - KeyItem
+  - MemoryMessage
   layers:
   - Default
   - TransparentFX

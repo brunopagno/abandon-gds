@@ -19,6 +19,7 @@ public class ThingsController : MonoBehaviour {
     private List<string> triggeredHoles = new List<string>();
     private List<string> collectedKeys = new List<string>();
     private Vector3 thePlayerPosition;
+    private GameObject memoryMessage;
 
     void Awake() {
         DontDestroyOnLoad(transform.gameObject);
@@ -31,6 +32,11 @@ public class ThingsController : MonoBehaviour {
             if (trigger != null) {
                 trigger.SetActive(false);
             }
+        }
+        memoryMessage = GameObject.FindGameObjectWithTag("MemoryMessage");
+        if (memoryMessage && finishedMemories.Count > 5) {
+            StartCoroutine(UtilControls.MomentPopup(3, memoryMessage));
+            Camera.main.GetComponent<GameInitializer>().ActivateThisThingy();
         }
 
         // HOLES
