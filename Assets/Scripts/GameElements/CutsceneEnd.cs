@@ -7,4 +7,9 @@ public class CutsceneEnd : MonoBehaviour {
         StartCoroutine(Camera.main.GetComponent<FadeScene>().FadeOutToScene("main"));
     }
 
+    public void OnEndGame() {
+        Destroy(GameObject.FindGameObjectWithTag("ThingsController"));
+        StartCoroutine(Camera.main.GetComponent<FadeScene>().FadeOutToScene("opening"));
+    }
+
 }

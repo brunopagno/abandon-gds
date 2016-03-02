@@ -20,6 +20,7 @@ public class ThingsController : MonoBehaviour {
     private List<string> collectedKeys = new List<string>();
     private Vector3 thePlayerPosition;
     private GameObject memoryMessage;
+    private bool memoryMessageWasAlreadyShown = false;
 
     void Awake() {
         DontDestroyOnLoad(transform.gameObject);
@@ -34,9 +35,10 @@ public class ThingsController : MonoBehaviour {
             }
         }
         memoryMessage = GameObject.FindGameObjectWithTag("MemoryMessage");
-        if (memoryMessage && finishedMemories.Count > 5) {
+        if (!memoryMessageWasAlreadyShown && memoryMessage && finishedMemories.Count > 5) {
             StartCoroutine(UtilControls.MomentPopup(3, memoryMessage));
             Camera.main.GetComponent<GameInitializer>().ActivateThisThingy();
+            memoryMessageWasAlreadyShown = true;
         }
 
         // HOLES
