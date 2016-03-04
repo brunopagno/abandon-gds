@@ -35,10 +35,12 @@ public class ThingsController : MonoBehaviour {
             }
         }
         memoryMessage = GameObject.FindGameObjectWithTag("MemoryMessage");
-        if (!memoryMessageWasAlreadyShown && memoryMessage && finishedMemories.Count > 5) {
-            StartCoroutine(UtilControls.MomentPopup(3, memoryMessage));
+        if (memoryMessage && finishedMemories.Count > 5) {
             Camera.main.GetComponent<GameInitializer>().ActivateThisThingy();
-            memoryMessageWasAlreadyShown = true;
+            if (!memoryMessageWasAlreadyShown) {
+                StartCoroutine(UtilControls.MomentPopup(3, memoryMessage));
+                memoryMessageWasAlreadyShown = true;
+            }
         }
 
         // HOLES
